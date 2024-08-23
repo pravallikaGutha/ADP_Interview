@@ -1,0 +1,14 @@
+{
+  "name": "adp_project",
+  "version": "1.0.0",
+  "description": "Interview Question",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Pravallika Gutha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
