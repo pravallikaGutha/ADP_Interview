@@ -94,7 +94,7 @@ async function main() {
 app.get('/process-transactions', async (req, res) => {
     try {
       const result = await main();
-      res.status(200).json(result);
+      res.status(200).json("Task completed successfully!");
     } catch (error) {
       console.error('An error occurred:', error);
       res.status(500).json({ success: false, message: 'Internal server error', error: error.message });
